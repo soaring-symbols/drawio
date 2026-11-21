@@ -24,13 +24,13 @@ Each entry is titled with the airline's name. Once a library is open, draw.io's 
 Choose **File > Open Library from > URL** and paste one of these:
 
 ```text
-https://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/icons.xml
-https://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/logos.xml
-https://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/tails.xml
-https://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/alliances.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/icons.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/logos.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/tails.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/alliances.xml
 ```
 
-For the mono libraries, add `-mono` before `.xml` (`icons-mono.xml`). Or open the four color libraries at once with [this link](https://app.diagrams.net/?clibs=Uhttps://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/icons.xml;Uhttps://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/logos.xml;Uhttps://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/tails.xml;Uhttps://cdn.jsdelivr.net/npm/soaring-symbols-drawio@0.5/dist/alliances.xml).
+For the mono libraries, add `-mono` before `.xml` (`icons-mono.xml`). Or open the four color libraries at once with [this link](https://app.diagrams.net/?clibs=Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/icons.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/logos.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/tails.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/alliances.xml).
 
 ### draw.io desktop
 
@@ -42,7 +42,7 @@ The mono libraries hold every monochrome mark, black in draw.io's light mode and
 
 ### Versions
 
-Each release is built from the [soaring-symbols](https://www.npmjs.com/package/soaring-symbols) release of the same version (`soaring-symbols-drawio@0.5.3` holds the marks of `soaring-symbols@0.5.3`). The links above follow the `0.5` release line, so each new release reaches them; for files that never change, link an exact release (`soaring-symbols-drawio@0.5.3`). Every mark is embedded in the library, so a diagram keeps a mark as it was when it was added, offline and after later releases.
+Each release is built from the [soaring-symbols](https://www.npmjs.com/package/soaring-symbols) release of the same version (`@soaring-symbols/drawio@0.5.3` holds the marks of `soaring-symbols@0.5.3`). The links above follow the `0.5` release line, so each new release reaches them; for files that never change, link an exact release (`@soaring-symbols/drawio@0.5.3`). Every mark is embedded in the library, so a diagram keeps a mark as it was when it was added, offline and after later releases.
 
 ## Development
 
@@ -69,7 +69,7 @@ For now, a release is made by hand after each soaring-symbols release:
 npm run release -- 0.5.3
 ```
 
-It installs `soaring-symbols@0.5.3`, builds and tests the libraries, publishes `soaring-symbols-drawio@0.5.3` to npm, and commits and tags `v0.5.3` without pushing. Without a version it takes the latest soaring-symbols on npm; `--dry-run` stops before publishing. Pushing the tag (`git push --atomic origin main v0.5.3`) publishes a GitHub release and purges jsDelivr's cache of the libraries.
+It installs `soaring-symbols@0.5.3`, builds and tests the libraries, publishes `@soaring-symbols/drawio@0.5.3` to npm, and commits and tags `v0.5.3` without pushing. Without a version it takes the latest soaring-symbols on npm; `--dry-run` stops before publishing. Pushing the tag (`git push --atomic origin main v0.5.3`) publishes a GitHub release and purges jsDelivr's cache of the libraries.
 
 Since the version follows soaring-symbols, a change here alone waits for the next soaring-symbols release.
 

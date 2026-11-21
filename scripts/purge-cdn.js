@@ -1,5 +1,5 @@
 // Purge jsDelivr's cache of the libraries, so links to the release line
-// (soaring-symbols-drawio@0.<minor>/dist/...) and to the bare package serve
+// (@soaring-symbols/drawio@0.<minor>/dist/...) and to the bare package serve
 // a new release right away instead of after up to 12 hours. Exact-release
 // links never need it. Every library is purged: a release rebuilds them all,
 // and purging one that didn't change does no harm.
@@ -14,7 +14,7 @@
 import { parseArgs } from 'util'
 import { DRAWIO_LIBRARIES } from '../src/drawio.js'
 
-const PACKAGE = 'soaring-symbols-drawio'
+const PACKAGE = '@soaring-symbols/drawio'
 const RESOLVE_URL = `https://data.jsdelivr.com/v1/packages/npm/${PACKAGE}/resolved?specifier=`
 const PURGE_URL = `https://purge.jsdelivr.net/npm/${PACKAGE}`
 const WAIT_MINUTES = 20

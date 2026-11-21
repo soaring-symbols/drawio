@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "soaring-symbols-drawio",
+      "name": "@soaring-symbols/drawio",
       "devDependencies": {
         "@eslint/js": "^10.0.1",
         "eslint": "^10.14.0",

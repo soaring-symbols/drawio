@@ -9,17 +9,17 @@
 //            latest on npm by default.
 //
 // The package's version is always the soaring-symbols version it was built
-// from, so links to a release line (soaring-symbols-drawio@0.5) follow the
+// from, so links to a release line (@soaring-symbols/drawio@0.5) follow the
 // library's. A fix here alone waits for the next soaring-symbols release.
 import { spawnSync } from 'child_process'
 import { existsSync, readFileSync, writeFileSync } from 'fs'
 import { parseArgs } from 'util'
 
-const PACKAGE = 'soaring-symbols-drawio'
+const PACKAGE = '@soaring-symbols/drawio'
 const SOURCE = 'soaring-symbols'
 const BRANCH = 'main'
 const REMOTE = 'origin'
-// The docs whose release line links (soaring-symbols-drawio@0.<minor>) move
+// The docs whose release line links (@soaring-symbols/drawio@0.<minor>) move
 // with a new line
 const LINE_DOCS = ['README.md']
 const RELEASE_FILES = [

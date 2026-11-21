@@ -1,5 +1,5 @@
 {
-    "name": "soaring-symbols-drawio",
+    "name": "@soaring-symbols/drawio",
     "version": "0.0.0",
     "description": "draw.io (diagrams.net) libraries of the Soaring Symbols airline logos, icons and tails.",
     "license": "MIT",
@@ -31,6 +31,9 @@
         "LICENSE",
         "README.md"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "engines": {
         "node": ">=22"
     },
