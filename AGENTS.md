@@ -27,7 +27,7 @@ draw.io facts the code relies on, checked in app.diagrams.net:
 | `npm run format`  | Prettier.                                         |
 | `npm run release` | Release by hand (below). Never run it unasked.    |
 
-Node ≥ 20.12. Dependencies are tracked in both `package-lock.json` and `bun.lock`; update both together.
+Node ≥ 22 (`node --test` with a glob). Dependencies are tracked in both `package-lock.json` and `bun.lock`; update both together.
 
 ## Releasing
 

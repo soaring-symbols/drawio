@@ -46,7 +46,7 @@ Each release is built from the [soaring-symbols](https://www.npmjs.com/package/s
 
 ## Development
 
-Node 20.12 or newer.
+Node 22 or newer.
 
 ```bash
 npm install

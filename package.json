@@ -32,13 +32,13 @@
         "README.md"
     ],
     "engines": {
-        "node": ">=20.12"
+        "node": ">=22"
     },
     "scripts": {
         "clean": "rm -rf dist",
         "build": "npm run clean && node scripts/build.js",
         "prepublishOnly": "npm run build",
-        "test": "npm run build && node --test test/",
+        "test": "npm run build && node --test \"test/**/*.test.js\"",
         "lint": "eslint . && prettier --check \"**/*.js\"",
         "format": "prettier --write \"**/*.js\"",
         "release": "node scripts/release.js"
