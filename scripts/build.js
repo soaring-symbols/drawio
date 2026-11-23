@@ -27,7 +27,7 @@ const readJson = async (file) =>
 // alias and former slugs)
 async function build() {
     const entriesByRoot = {
-        assets: await readJson('airlines.json'),
+        airlines: await readJson('airlines.json'),
         alliances: await readJson('alliances.json'),
     }
     await fs.mkdir(DIST, { recursive: true })

@@ -16,15 +16,25 @@ const DRAWIO_SIZES = { icon: 48, logo: 96, 'logo-stacked': 96, tail: 48 }
 // added to the title of a type's entries, which draw.io shows on hover, where
 // one name has more than one entry
 const KINDS = [
-    { name: 'icons', title: 'Airline Icons', types: ['icon'], root: 'assets' },
+    {
+        name: 'icons',
+        title: 'Airline Icons',
+        types: ['icon'],
+        root: 'airlines',
+    },
     {
         name: 'logos',
         title: 'Airline Logos',
         types: ['logo', 'logo-stacked'],
-        root: 'assets',
+        root: 'airlines',
         labels: { 'logo-stacked': 'stacked' },
     },
-    { name: 'tails', title: 'Airline Tails', types: ['tail'], root: 'assets' },
+    {
+        name: 'tails',
+        title: 'Airline Tails',
+        types: ['tail'],
+        root: 'airlines',
+    },
     {
         name: 'alliances',
         title: 'Alliances',

@@ -47,7 +47,7 @@ describe('draw.io libraries', () => {
 
     it('ships one entry per current mark of each library, by name', () => {
         const catalogs = {
-            assets: JSON.parse(
+            airlines: JSON.parse(
                 readFileSync(new URL('dist/airlines.json', SOURCE)),
             ),
             alliances: JSON.parse(
