@@ -1,58 +1,58 @@
 {
-    "name": "@soaring-symbols/drawio",
-    "version": "0.6.0",
-    "description": "draw.io (diagrams.net) libraries of the Soaring Symbols airline logos, icons and tails.",
-    "license": "MIT",
-    "author": {
-        "name": "Anh Thang Bui",
-        "url": "https://anhthang.org"
-    },
-    "type": "module",
-    "homepage": "https://github.com/soaring-symbols/drawio",
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/soaring-symbols/drawio.git"
-    },
-    "bugs": {
-        "url": "https://github.com/soaring-symbols/drawio/issues"
-    },
-    "keywords": [
-        "drawio",
-        "diagrams.net",
-        "drawio-libs",
-        "airline",
-        "logo",
-        "icon",
-        "aviation",
-        "soaring-symbols"
-    ],
-    "files": [
-        "dist/",
-        "LICENSE",
-        "README.md"
-    ],
-    "publishConfig": {
-        "access": "public"
-    },
-    "engines": {
-        "node": ">=22"
-    },
-    "scripts": {
-        "clean": "rm -rf dist",
-        "build": "npm run clean && node scripts/build.js",
-        "prepublishOnly": "npm run build",
-        "test": "npm run build && node --test \"test/**/*.test.js\"",
-        "lint": "eslint . && prettier --check \"**/*.js\"",
-        "format": "prettier --write \"**/*.js\"",
-        "release": "node scripts/release.js"
-    },
-    "devDependencies": {
-        "@eslint/js": "^10.0.1",
-        "eslint": "^10.14.0",
-        "eslint-config-prettier": "^10.1.8",
-        "globals": "^17.14.0",
-        "jsdom": "^31.0.1",
-        "prettier": "^3.9.10",
-        "soaring-symbols": "0.6.0"
-    }
+  "name": "@soaring-symbols/drawio",
+  "version": "0.6.0",
+  "description": "draw.io (diagrams.net) libraries of the Soaring Symbols airline logos, icons and tails.",
+  "license": "MIT",
+  "author": {
+    "name": "Anh Thang Bui",
+    "url": "https://anhthang.org"
+  },
+  "type": "module",
+  "homepage": "https://github.com/soaring-symbols/drawio",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soaring-symbols/drawio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soaring-symbols/drawio/issues"
+  },
+  "keywords": [
+    "drawio",
+    "diagrams.net",
+    "drawio-libs",
+    "airline",
+    "logo",
+    "icon",
+    "aviation",
+    "soaring-symbols"
+  ],
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && node scripts/build.js",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node --test \"test/**/*.test.js\"",
+    "lint": "eslint . && prettier --check \"**/*.js\"",
+    "format": "prettier --write \"**/*.js\"",
+    "release": "node scripts/release.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.14.0",
+    "jsdom": "^31.0.1",
+    "prettier": "^3.9.10",
+    "soaring-symbols": "0.6.0"
+  }
 }

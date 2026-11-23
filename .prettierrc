@@ -6,7 +6,7 @@
     "printWidth": 80,
     "overrides": [
         {
-            "files": ["*.yml", "*.yaml", "*.md"],
+            "files": ["*.yml", "*.yaml", "*.md", "package.json"],
             "options": { "tabWidth": 2 }
         }
     ]
