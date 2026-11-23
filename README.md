@@ -24,13 +24,13 @@ Each entry is titled with the airline's name. Once a library is open, draw.io's 
 Choose **File > Open Library from > URL** and paste one of these:
 
 ```text
-https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/icons.xml
-https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/logos.xml
-https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/tails.xml
-https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/alliances.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/icons.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/logos.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/tails.xml
+https://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/alliances.xml
 ```
 
-For the mono libraries, add `-mono` before `.xml` (`icons-mono.xml`). Or open the four color libraries at once with [this link](https://app.diagrams.net/?clibs=Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/icons.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/logos.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/tails.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.5/dist/alliances.xml).
+For the mono libraries, add `-mono` before `.xml` (`icons-mono.xml`). Or open the four color libraries at once with [this link](https://app.diagrams.net/?clibs=Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/icons.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/logos.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/tails.xml;Uhttps://cdn.jsdelivr.net/npm/@soaring-symbols/drawio@0.6/dist/alliances.xml).
 
 ### draw.io desktop
 
