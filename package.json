@@ -53,6 +53,6 @@
     "globals": "^17.14.0",
     "jsdom": "^31.0.1",
     "prettier": "^3.9.10",
-    "soaring-symbols": "0.6.0"
+    "soaring-symbols": "0.6.1"
   }
 }

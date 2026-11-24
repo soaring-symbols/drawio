@@ -11,7 +11,7 @@
         "globals": "^17.14.0",
         "jsdom": "^31.0.1",
         "prettier": "^3.9.10",
-        "soaring-symbols": "0.6.0",
+        "soaring-symbols": "0.6.1",
       },
     },
   },
@@ -198,7 +198,7 @@
 
     "shebang-regex": ["shebang-regex@3.0.0", "", {}, "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A=="],
 
-    "soaring-symbols": ["soaring-symbols@0.6.0", "", { "peerDependencies": { "@resvg/resvg-wasm": "2.6.2" }, "optionalPeers": ["@resvg/resvg-wasm"] }, "sha512-3NgOAlR83yOJCHPhK0UbxvDuMHYNM6/T624Ppbf87qZKvfOzMZ2MkpgIBJhBm8SuIxXg+5nASxsAd/ifav0N4g=="],
+    "soaring-symbols": ["soaring-symbols@0.6.1", "", { "peerDependencies": { "@resvg/resvg-wasm": "2.6.2" }, "optionalPeers": ["@resvg/resvg-wasm"] }, "sha512-WI0tO9Y97rJn+9ZsN2jDvyATX0ojCdvJ2VYFHLRkiKCKGgZnQ4jSoHVZdA9AZC1u7RYwpPp9JlxBR5i80Oyk6A=="],
 
     "tldts": ["tldts@7.5.5", "", { "dependencies": { "tldts-core": "^7.5.5" }, "bin": "bin/cli.js" }, "sha512-Hy6IImaWALzJOgCIss4gIFi4G0M9lqk95pFKCUVxQPZw+biZ1Pv6f28JpYgahpJB+BufA0HYsIU/aP/WIx3KRg=="],
 
